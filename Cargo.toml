@@ -1,0 +1,19 @@
+[package]
+name = "fsz"
+version = "1.0.0"
+edition = "2024"
+authors = ["HandsYe"]
+description = "Fast file size analyzer - CLI tool to analyze disk usage"
+license = "MIT"
+repository = "https://github.com/HandsYe/fsz"
+keywords = ["cli", "disk", "size", "analyzer", "utility"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+walkdir = "2.5"
+clap = { version = "4.5", features = ["derive"] }
+
+[profile.release]
+opt-level = 3
+lto = true
+strip = true
