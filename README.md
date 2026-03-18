@@ -18,13 +18,13 @@
 ### From Source
 
 ```bash
-cargo install --git https://github.com/HandsYe/fsz
+cargo install --git https://github.com/HandsYe/fsz.git
 ```
 
 ### Build Locally
 
 ```bash
-git clone https://github.com/HandsYe/fsz
+git clone https://github.com/HandsYe/fsz.git
 cd fsz
 cargo build --release
 ```
