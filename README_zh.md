@@ -18,13 +18,13 @@
 ### 从源码安装
 
 ```bash
-cargo install --git https://github.com/HandsYe/fsz
+cargo install --git https://github.com/HandsYe/fsz.git
 ```
 
 ### 本地编译
 
 ```bash
-git clone https://github.com/HandsYe/fsz
+git clone https://github.com/HandsYe/fsz.git
 cd fsz
 cargo build --release
 ```
